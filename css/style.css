@@ -521,68 +521,28 @@ video {
   margin-right: 0.75rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .mb-1 {
   margin-bottom: 0.25rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .flex {
   display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-10 {
+  height: 2.5rem;
 }
 
-.h-9 {
-  height: 2.25rem;
+.w-\[100\%\] {
+  width: 100%;
 }
 
-.h-7 {
-  height: 1.75rem;
-}
-
-.w-\[40vh\] {
-  width: 40vh;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-1\/4 {
-  width: 25%;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
+.w-\[45\%\] {
+  width: 45%;
 }
 
 .items-center {
@@ -597,10 +557,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-1 {
-  gap: 0.25rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -609,35 +565,8 @@ video {
   gap: 1rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
 .rounded-3xl {
   border-radius: 1.5rem;
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#318ce7\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(49 140 231 / var(--tw-bg-opacity));
-}
-
-.bg-\[e78c31\] {
-  background-color: e78c31;
 }
 
 .bg-\[\#e78c31\] {
@@ -645,154 +574,67 @@ video {
   background-color: rgb(231 140 49 / var(--tw-bg-opacity));
 }
 
-.bg-slate-600 {
+.bg-\[\#318ce7\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+  background-color: rgb(49 140 231 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .text-center {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .font-\[Shabnam\] {
   font-family: Shabnam;
-}
-
-.text-\[100px\] {
-  font-size: 100px;
-}
-
-.text-\[60px\] {
-  font-size: 60px;
-}
-
-.text-\[30px\] {
-  font-size: 30px;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.text-\[22px\] {
-  font-size: 22px;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[19px\] {
-  font-size: 19px;
 }
 
 .text-\[21px\] {
   font-size: 21px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
-}
-
-.text-\[32px\] {
-  font-size: 32px;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-\[12px\] {
-  font-size: 12px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .text-\[16px\] {
   font-size: 16px;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-\[15px\] {
+  font-size: 15px;
 }
 
-.font-\[500\] {
-  font-weight: 500;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-thin {
   font-weight: 100;
 }
 
-.text-\[3rm\] {
-  color: 3rm;
+.font-light {
+  font-weight: 300;
 }
 
-.text-\[5rm\] {
-  color: 5rm;
+.font-black {
+  font-weight: 900;
 }
 
-.text-\[\] {
-  color: ;
+.font-extralight {
+  font-weight: 200;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-black {
-  --tw-shadow-color: #000;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-gray-900 {
-  --tw-shadow-color: #111827;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-red-900 {
-  --tw-shadow-color: #7f1d1d;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .shadow-current {
