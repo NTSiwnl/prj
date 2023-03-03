@@ -1,0 +1,23 @@
+{
+  "name": "course-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "windicss 'index.html' -to './css/style.css' -f 'windi.config.js' -d",
+    "dev2": "windicss 'index.html' -to './css/style.css' -f 'windi.config.js' -d -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NTSiwnl/prj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NTSiwnl/prj/issues"
+  },
+  "homepage": "https://github.com/NTSiwnl/prj#readme",
+  "devDependencies": {
+    "@windicss/plugin-animations": "^1.0.9"
+  }
+}
